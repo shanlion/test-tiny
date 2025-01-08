@@ -1,0 +1,629 @@
+@charset "UTF-8";
+body {
+  font-family: "宋体";
+}
+
+@font-face {
+  font-family: 'fzssk', "方正书宋";
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/fzssk.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'fzssk';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/fzssk.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZBSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZBSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZBWKSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZBWKSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZBWKSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZBWKSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZCCHFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZCCHFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZCCHJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZCCHJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZCHYFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZCHYFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZCHYJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZCHYJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZCQFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZCQFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZCQJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZCQJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZCSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZCSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZCSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZCSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZCYFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZCYFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZCYJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZCYJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZDBSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZDBSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZDBSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZDBSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZDHTFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZDHTFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZDHTJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZDHTJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZFSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZFSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZFSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZFSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZGLFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZGLFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZGLJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZGLJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZH4FW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZH4FW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZHCJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZHCJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZHLFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZHLFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZHLJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZHLJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZHPFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZHPFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZHPJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZHPJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZHTFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZHTFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZHTJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZHTJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZJZFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZJZFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZJZJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZJZJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZKANGFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZKANGFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZKANGJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZKANGJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZKATFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZKATFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZKATJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZKATJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZKTFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZKTFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZKTJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZKTJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZL2FW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZL2FW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZL2JW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZL2JW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZLBFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZLBFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZLBJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZLBJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZLSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZLSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZLSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZLSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZLXTFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZLXTFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZLXTJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZLXTJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZMHFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZMHFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZMHJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZMHJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZNBSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZNBSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZNSTFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZNSTFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZNSTJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZNSTJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZPHFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZPHFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZPHTFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZPHTFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZPHTJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZPHTJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZPTYJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZPTYJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZPWFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZPWFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZPWJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZPWJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZQTFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZQTFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZQTJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZQTJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZS3JW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZS3JW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSEFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSEFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSEJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSEJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSHFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSHFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSHHFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSHHFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSHHJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSHHJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSHJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSHJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSJSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSJSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSJSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSJSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSTFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSTFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSTJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSTJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSYFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSYFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSYJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSYJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSZFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSZFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZSZJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZSZJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZTJLSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZTJLSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZTJLSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZTJLSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZWBFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZWBFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZWBJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZWBJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXBSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXBSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXBSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXBSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXDXJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXDXJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXH1FW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXH1FW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXH1JW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXH1JW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXIANGLFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXIANGLFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXIANGLJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXIANGLJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXKFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXKFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXKJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXKJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXLFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXLFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXQFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXQFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXQJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXQJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXSHFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXSHFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXSHJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXSHJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXSSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXSSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXXLFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXXLFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZXZTFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZXZTFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZY1FW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZY1FW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZY1JW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZY1JW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZY3FW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZY3FW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZY3JW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZY3JW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZY4FW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZY4FW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZY4JW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZY4JW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZYBKSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZYBKSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZYBKSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZYBKSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZYBXSFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZYBXSFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZYBXSJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZYBXSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZYHFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZYHFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZYHJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZYHJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZYTFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZYTFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZYTJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZYTJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZYXFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZYXFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZYXJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZYXJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZBHFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZBHFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZBHJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZBHJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZDXFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZDXFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZDXJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZDXJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZHYFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZHYFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZHYJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZHYJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZKFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZKFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZQFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZQFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZQJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZQJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZYFW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZYFW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'FZZYJW';
+  src: url("https://etextbook-kingchannels.oss-cn-zhangjiakou.aliyuncs.com/etextbook/public/fonts/FZZYJW.TTF") format("truetype");
+}
